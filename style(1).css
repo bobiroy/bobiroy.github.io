@@ -14,14 +14,18 @@ body {
 }
 .sidebar{
   grid-area: sidebar;
-  background: linear-gradient(to right,rgb(94, 207, 19), rgb(26, 196, 63), rgb(12, 206, 70)) ;
+  background: linear-gradient(to right, rgb(94, 207, 19), rgb(26, 196, 63),
+   rgba(110,125,253,1)) ;
   justify-content: center;
 }
-
+.footer {
+  grid-area: footer;
+  background: rgb(117, 3, 3);
+}
 .container {
   font-size: 1.5em;
   width:auto;
-  height: 40vh;
+  height: 45vh;
   display:grid;
   grid-template-areas: "sidebar" "content";
   grid-template-columns: auto;
@@ -33,8 +37,8 @@ body {
 }
 
 .card {
-  border: 5px solid #EDE868;
-  background-color:#C4F2CE;
+  border: 5px solid rgb(0, 60, 255);
+  background-color: rgb(209, 116, 197);
   margin-left: 85px;
 }
 
@@ -52,7 +56,7 @@ nav li{
 }
 
 nav li a {
-  color: #ffffff;
+  color: white;
   font-weight: 700;
   opacity: 0.6;
   text-decoration: none;
@@ -69,9 +73,8 @@ nav li a:hover {
 }
 
 .hero img {
-  width: 100px;
+  width: 200px;
   display: block;
-  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -79,28 +82,53 @@ nav li a:hover {
 .hero h1 {
   font-size: 2em;
   font-weight: 300;
-  text-align: center;
-  color: #000000;
+  color: #373046;
 }
-
 
 .hero p {
   font-weight: 300;
   line-height: 1.3em;
-  text-align: center;
-  color: #000000;
+  color: #98aBad;
 }
 
 .action-btn {
   display: inline-block;
   text-decoration: none;
-  color: #EFF4E7;
+  color: white;
   font-weight: 700;
-  background: #09e440;
+  background: #567bfb;
   padding: 0.5em 2em;
   border-radius: 60px;
   margin: 1em 0;
   transition: 0.3s;
+}
+
+footer ul {
+max-width: 640px;
+margin: 2em auto;
+padding: 0;
+text-align: center;
+display: flex;
+flex-direction: row;
+
+}
+
+footer ul li {
+  list-style: none;
+  align-self: flex-end;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: #c1c6ce;
+}
+
+footer ul li img {
+  width: 30%;
+}
+
+footer p {
+  font-size: 0.8em;
 }
 
 
@@ -117,27 +145,27 @@ nav li a:hover {
       flex-direction: column;
   }
   .sidebar{
-      background: linear-gradient( rgb(26, 196, 63), #42a572) ;
+      background: linear-gradient( rgba(200,107,142,1), rgba(218,105,250,1),
+      rgba(110,125,253,1)) ;
       padding-top: 10em;
       width: 50%;
       height: 66%;
       
   }
   .hero{
-    text-align: left;
-    margin: 7em 0;
-}
+      text-align: left;
+      margin: 7em 0;
+  }
   .hero img {
-    width: 400px;
-    margin-top: -40px;
-    float: right;
-}
+      width: 200px;
+      float: right;
+  }
   .hero h1{
-    font-size: 3em;
-}
+      font-size: 3em;
+  }
   .hero p{
-    width: 60%;
-}
+      width: 60%;
+  }
   footer ul {
       max-width: 900px;
       margin: 0 auto;
