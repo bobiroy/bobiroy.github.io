@@ -1,7 +1,7 @@
 {
-  "name": "project",
+  "name": "smart",
   "version": "1.0.0",
-  "description": "",
+  "description": "no",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,17 @@
   "dependencies": {
     "antares-http": "^1.0.4",
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatimaazzahra/SMART-GARDEN.git"
+  },
+  "keywords": [
+    "no"
+  ],
+  "bugs": {
+    "url": "https://github.com/fatimaazzahra/SMART-GARDEN/issues"
+  },
+  "homepage": "https://github.com/fatimaazzahra/SMART-GARDEN#readme"
 }
