@@ -6,7 +6,7 @@
 
 body {
     background-color: #eff1f2;
-    font-family: sans-serif;
+    
 }
 
 .content {
@@ -138,13 +138,5 @@ nav li a:hover {
   .hero p{
     width: 60%;
 }
-  footer ul {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 1em 0;
-  }
 
-  footer ul li a img {
-      width: 20%;
-  }
 }

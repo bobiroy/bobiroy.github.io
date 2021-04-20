@@ -2,7 +2,7 @@
   "name": "smart",
   "version": "1.0.0",
   "description": "no",
-  "main": "index.js",
+  "main": "scripts.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +11,9 @@
   "dependencies": {
     "antares-http": "^1.0.4",
     "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "14.16.0"
   },
   "devDependencies": {},
   "repository": {
